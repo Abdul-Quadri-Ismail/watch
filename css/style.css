@@ -2,6 +2,7 @@
   --color-primary:#FFDDC9;
   --color-primary-light:#FFF1E8;
   --color-primary-dark:#FF8A47;
+  --color-blue-light:#F0E6FF;
   --color-star:#EFB741;
   --color-grey-light-1: #faf9f9;
   --color-grey-light-2: #f4f2f2;
@@ -203,7 +204,9 @@ html {
   .success-story__item {
     flex: 1 0 0;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    margin-right: 10rem;
+    justify-content: center; }
   .success-story__attr {
     margin-left: 2.1rem; }
     .success-story__attr__readmore {
@@ -429,9 +432,10 @@ html {
       .buy__card-container__details-rating__icon {
         width: 1.5rem;
         height: 1.5rem;
+        font-weight: 600;
         fill: var(--color-star); }
       .buy__card-container__details-rating__figure {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         color: var(--color-grey-dark-3);
         padding-left: 1rem;
         font-weight: 500; }
